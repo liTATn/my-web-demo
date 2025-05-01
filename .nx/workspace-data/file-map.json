@@ -1,0 +1,131 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.8.1",
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "name": "@nx/vite/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "testTargetName": "test",
+        "serveTargetName": "serve",
+        "devTargetName": "dev",
+        "previewTargetName": "preview",
+        "serveStaticTargetName": "serve-static",
+        "typecheckTargetName": "typecheck",
+        "buildDepsTargetName": "build-deps",
+        "watchDepsTargetName": "watch-deps"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "package-lock.json",
+        "hash": "4882146897490452032"
+      },
+      {
+        "file": "nx.json",
+        "hash": "15304205223761302125"
+      },
+      {
+        "file": "README.md",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "11919028057662818718"
+      },
+      {
+        "file": "package.json",
+        "hash": "9783847922393465212"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "14755833654515998580"
+      }
+    ],
+    "projectFileMap": {
+      "demo-web": [
+        {
+          "file": "apps/demo-web/.babelrc",
+          "hash": "11877436663910714680"
+        },
+        {
+          "file": "apps/demo-web/.swcrc",
+          "hash": "9921579498929141427"
+        },
+        {
+          "file": "apps/demo-web/eslint.config.mjs",
+          "hash": "2624537849564014525"
+        },
+        {
+          "file": "apps/demo-web/index.html",
+          "hash": "13296880327157670695"
+        },
+        {
+          "file": "apps/demo-web/project.json",
+          "hash": "18240479653484030246"
+        },
+        {
+          "file": "apps/demo-web/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/demo-web/src/app/app.element.css",
+          "hash": "17325190473532207102"
+        },
+        {
+          "file": "apps/demo-web/src/app/app.element.spec.ts",
+          "hash": "13505393744429359484"
+        },
+        {
+          "file": "apps/demo-web/src/app/app.element.ts",
+          "hash": "10591849081995040528"
+        },
+        {
+          "file": "apps/demo-web/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/demo-web/src/main.ts",
+          "hash": "466268443977743393"
+        },
+        {
+          "file": "apps/demo-web/src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "apps/demo-web/tsconfig.app.json",
+          "hash": "9107732251330592152"
+        },
+        {
+          "file": "apps/demo-web/tsconfig.json",
+          "hash": "12441141046573828386"
+        },
+        {
+          "file": "apps/demo-web/vite.config.ts",
+          "hash": "8264270599818203492"
+        }
+      ]
+    }
+  }
+}
