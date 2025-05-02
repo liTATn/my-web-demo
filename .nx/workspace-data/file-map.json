@@ -1,7 +1,11 @@
 {
   "version": "6.0",
   "nxVersion": "20.8.1",
-  "pathMappings": {},
+  "pathMappings": {
+    "game-amidakuji": [
+      "components/game-amidakuji/src/index.ts"
+    ]
+  },
   "nxJsonPlugins": [
     {
       "name": "@nx/eslint/plugin",
@@ -22,45 +26,53 @@
         "buildDepsTargetName": "build-deps",
         "watchDepsTargetName": "watch-deps"
       }
+    },
+    {
+      "name": "@nx/rollup/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "buildDepsTargetName": "build-deps",
+        "watchDepsTargetName": "watch-deps"
+      }
     }
   ],
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package-lock.json",
-        "hash": "4882146897490452032"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
         "file": "nx.json",
-        "hash": "15304205223761302125"
+        "hash": "12577223484020450995"
       },
       {
-        "file": "README.md",
-        "hash": "3244421341483603138"
+        "file": "tsconfig.base.json",
+        "hash": "11756474153378964354"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "3840220570464515848"
       },
       {
         "file": ".prettierignore",
         "hash": "14688272390704683536"
       },
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "11919028057662818718"
-      },
-      {
-        "file": "package.json",
-        "hash": "9783847922393465212"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
+        "file": "README.md",
+        "hash": "3244421341483603138"
       },
       {
         "file": "eslint.config.mjs",
         "hash": "14755833654515998580"
+      },
+      {
+        "file": "package.json",
+        "hash": "14613326773967009491"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "12309193941820418032"
       }
     ],
     "projectFileMap": {
@@ -94,12 +106,11 @@
           "hash": "17325190473532207102"
         },
         {
-          "file": "apps/demo-web/src/app/app.element.spec.ts",
-          "hash": "13505393744429359484"
-        },
-        {
           "file": "apps/demo-web/src/app/app.element.ts",
-          "hash": "10591849081995040528"
+          "hash": "3210269563742269824",
+          "deps": [
+            "game-amidakuji"
+          ]
         },
         {
           "file": "apps/demo-web/src/assets/.gitkeep",
@@ -115,7 +126,7 @@
         },
         {
           "file": "apps/demo-web/tsconfig.app.json",
-          "hash": "9107732251330592152"
+          "hash": "3443968670714619211"
         },
         {
           "file": "apps/demo-web/tsconfig.json",
@@ -123,7 +134,63 @@
         },
         {
           "file": "apps/demo-web/vite.config.ts",
-          "hash": "8264270599818203492"
+          "hash": "8264270599818203492",
+          "deps": [
+            "npm:vite",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "game-amidakuji": [
+        {
+          "file": "components/game-amidakuji/.swcrc",
+          "hash": "3236768094882387443"
+        },
+        {
+          "file": "components/game-amidakuji/README.md",
+          "hash": "12089513136974805712"
+        },
+        {
+          "file": "components/game-amidakuji/eslint.config.mjs",
+          "hash": "10611664913833900278",
+          "deps": [
+            [
+              "npm:jsonc-eslint-parser",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "components/game-amidakuji/package.json",
+          "hash": "8294989441345812785"
+        },
+        {
+          "file": "components/game-amidakuji/project.json",
+          "hash": "4249818535988823730"
+        },
+        {
+          "file": "components/game-amidakuji/rollup.config.cjs",
+          "hash": "18091858577166772739"
+        },
+        {
+          "file": "components/game-amidakuji/src/index.ts",
+          "hash": "3268706013393485475"
+        },
+        {
+          "file": "components/game-amidakuji/src/lib/game-amidakuji.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "components/game-amidakuji/src/lib/game-amidakuji.ts",
+          "hash": "15786028251388239917"
+        },
+        {
+          "file": "components/game-amidakuji/tsconfig.json",
+          "hash": "6159797437362864955"
+        },
+        {
+          "file": "components/game-amidakuji/tsconfig.lib.json",
+          "hash": "15798669420171897096"
         }
       ]
     }

@@ -412,5 +412,215 @@
       "apps/demo-web/project.json",
       "nx/core/project-json"
     ]
+  },
+  "components/game-amidakuji": {
+    "root": [
+      "components/game-amidakuji/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "components/game-amidakuji/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "components/game-amidakuji/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "components/game-amidakuji/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "components/game-amidakuji/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "components/game-amidakuji/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "components/game-amidakuji/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "components/game-amidakuji/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "components/game-amidakuji/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "components/game-amidakuji/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "components/game-amidakuji/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "components/game-amidakuji/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "components/game-amidakuji/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "components/game-amidakuji/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "components/game-amidakuji/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "components/game-amidakuji/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "components/game-amidakuji/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.build": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.cache": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.inputs": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.outputs": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.metadata": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.executor": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options.command": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.metadata.technologies": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.metadata.technologies.0": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.metadata.description": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.metadata.help": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.metadata.help.command": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.metadata.help.example": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build-deps": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.watch-deps": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "components/game-amidakuji/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "name": [
+      "components/game-amidakuji/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "components/game-amidakuji/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "components/game-amidakuji/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "components/game-amidakuji/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "components/game-amidakuji/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "components/game-amidakuji/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "components/game-amidakuji/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "components/game-amidakuji/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "components/game-amidakuji/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "components/game-amidakuji/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "components/game-amidakuji/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "components/game-amidakuji/project.json",
+      "nx/core/project-json"
+    ]
   }
 }

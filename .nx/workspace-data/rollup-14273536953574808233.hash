@@ -1,0 +1,402 @@
+{
+  "4898032951806283303": {
+    "build": {
+      "command": "rollup -c rollup.config.cjs",
+      "options": {
+        "cwd": "components/game-amidakuji"
+      },
+      "cache": true,
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "rollup"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/dist/components/game-amidakuji"
+      ],
+      "metadata": {
+        "technologies": [
+          "rollup"
+        ],
+        "description": "Run Rollup",
+        "help": {
+          "command": "npx rollup --help",
+          "example": {
+            "options": {
+              "sourcemap": true,
+              "watch": true
+            }
+          }
+        }
+      }
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects game-amidakuji --includeDependentProjects -- npx nx build-deps game-amidakuji"
+    }
+  },
+  "7953958767199819079": {
+    "build": {
+      "command": "rollup -c rollup.config.cjs",
+      "options": {
+        "cwd": "components/game-amidakuji"
+      },
+      "cache": true,
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "rollup"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/dist/components/game-amidakuji"
+      ],
+      "metadata": {
+        "technologies": [
+          "rollup"
+        ],
+        "description": "Run Rollup",
+        "help": {
+          "command": "npx rollup --help",
+          "example": {
+            "options": {
+              "sourcemap": true,
+              "watch": true
+            }
+          }
+        }
+      }
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects game-amidakuji --includeDependentProjects -- npx nx build-deps game-amidakuji"
+    }
+  },
+  "7161525893613844773": {
+    "build": {
+      "command": "rollup -c rollup.config.cjs",
+      "options": {
+        "cwd": "components/game-amidakuji"
+      },
+      "cache": true,
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "rollup"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/dist/components/game-amidakuji"
+      ],
+      "metadata": {
+        "technologies": [
+          "rollup"
+        ],
+        "description": "Run Rollup",
+        "help": {
+          "command": "npx rollup --help",
+          "example": {
+            "options": {
+              "sourcemap": true,
+              "watch": true
+            }
+          }
+        }
+      }
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects game-amidakuji --includeDependentProjects -- npx nx build-deps game-amidakuji"
+    }
+  },
+  "8457871241882061269": {
+    "build": {
+      "command": "rollup -c rollup.config.cjs",
+      "options": {
+        "cwd": "components/game-amidakuji"
+      },
+      "cache": true,
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "rollup"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/dist/components/game-amidakuji"
+      ],
+      "metadata": {
+        "technologies": [
+          "rollup"
+        ],
+        "description": "Run Rollup",
+        "help": {
+          "command": "npx rollup --help",
+          "example": {
+            "options": {
+              "sourcemap": true,
+              "watch": true
+            }
+          }
+        }
+      }
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects game-amidakuji --includeDependentProjects -- npx nx build-deps game-amidakuji"
+    }
+  },
+  "2537969862376598528": {
+    "build": {
+      "command": "rollup -c rollup.config.cjs",
+      "options": {
+        "cwd": "components/game-amidakuji"
+      },
+      "cache": true,
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "rollup"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/dist/components/game-amidakuji"
+      ],
+      "metadata": {
+        "technologies": [
+          "rollup"
+        ],
+        "description": "Run Rollup",
+        "help": {
+          "command": "npx rollup --help",
+          "example": {
+            "options": {
+              "sourcemap": true,
+              "watch": true
+            }
+          }
+        }
+      }
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects game-amidakuji --includeDependentProjects -- npx nx build-deps game-amidakuji"
+    }
+  },
+  "5312503389454216128": {
+    "build": {
+      "command": "rollup -c rollup.config.cjs",
+      "options": {
+        "cwd": "components/game-amidakuji"
+      },
+      "cache": true,
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "rollup"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/dist/components/game-amidakuji"
+      ],
+      "metadata": {
+        "technologies": [
+          "rollup"
+        ],
+        "description": "Run Rollup",
+        "help": {
+          "command": "npx rollup --help",
+          "example": {
+            "options": {
+              "sourcemap": true,
+              "watch": true
+            }
+          }
+        }
+      }
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects game-amidakuji --includeDependentProjects -- npx nx build-deps game-amidakuji"
+    }
+  },
+  "2564510796495521631": {
+    "build": {
+      "command": "rollup -c rollup.config.cjs",
+      "options": {
+        "cwd": "components/game-amidakuji"
+      },
+      "cache": true,
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "rollup"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/dist/components/game-amidakuji"
+      ],
+      "metadata": {
+        "technologies": [
+          "rollup"
+        ],
+        "description": "Run Rollup",
+        "help": {
+          "command": "npx rollup --help",
+          "example": {
+            "options": {
+              "sourcemap": true,
+              "watch": true
+            }
+          }
+        }
+      }
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects game-amidakuji --includeDependentProjects -- npx nx build-deps game-amidakuji"
+    }
+  },
+  "10970144899156617341": {
+    "build": {
+      "command": "rollup -c rollup.config.cjs",
+      "options": {
+        "cwd": "components/game-amidakuji"
+      },
+      "cache": true,
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "rollup"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/dist/components/game-amidakuji"
+      ],
+      "metadata": {
+        "technologies": [
+          "rollup"
+        ],
+        "description": "Run Rollup",
+        "help": {
+          "command": "npx rollup --help",
+          "example": {
+            "options": {
+              "sourcemap": true,
+              "watch": true
+            }
+          }
+        }
+      }
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects game-amidakuji --includeDependentProjects -- npx nx build-deps game-amidakuji"
+    }
+  }
+}
