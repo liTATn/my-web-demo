@@ -124,6 +124,130 @@
         "implicitDependencies": []
       }
     },
+    "utilities": {
+      "name": "utilities",
+      "type": "lib",
+      "data": {
+        "root": "libs/utilities",
+        "targets": {
+          "lint": {
+            "cache": true,
+            "options": {
+              "cwd": "libs/utilities",
+              "command": "eslint ."
+            },
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/eslint.config.mjs",
+              "{projectRoot}/eslint.config.mjs",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "metadata": {
+              "technologies": [
+                "eslint"
+              ],
+              "description": "Runs ESLint on project",
+              "help": {
+                "command": "npx eslint --help",
+                "example": {
+                  "options": {
+                    "max-warnings": 0
+                  }
+                }
+              }
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          },
+          "build": {
+            "options": {
+              "cwd": "libs/utilities",
+              "command": "rollup -c rollup.config.cjs"
+            },
+            "cache": true,
+            "dependsOn": [
+              "^build"
+            ],
+            "inputs": [
+              "default",
+              "^default",
+              {
+                "externalDependencies": [
+                  "rollup"
+                ]
+              }
+            ],
+            "outputs": [
+              "{workspaceRoot}/dist/libs/utilities"
+            ],
+            "metadata": {
+              "technologies": [
+                "rollup"
+              ],
+              "description": "Run Rollup",
+              "help": {
+                "command": "npx rollup --help",
+                "example": {
+                  "options": {
+                    "sourcemap": true,
+                    "watch": true
+                  }
+                }
+              }
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          },
+          "build-deps": {
+            "dependsOn": [
+              "^build"
+            ],
+            "configurations": {},
+            "options": {},
+            "parallelism": true,
+            "executor": "nx:noop"
+          },
+          "watch-deps": {
+            "dependsOn": [
+              "build-deps"
+            ],
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "npx nx watch --projects utilities --includeDependentProjects -- npx nx build-deps utilities"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "name": "utilities",
+        "tags": [
+          "npm:private"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "utilities",
+            "packageMain": "./index.cjs",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/utilities/src",
+        "projectType": "library",
+        "implicitDependencies": []
+      }
+    },
     "demo-web": {
       "name": "demo-web",
       "type": "app",
@@ -7698,6 +7822,23 @@
         "source": "game-amidakuji",
         "target": "npm:jsonc-eslint-parser",
         "type": "dynamic"
+      },
+      {
+        "source": "game-amidakuji",
+        "target": "utilities",
+        "type": "static"
+      }
+    ],
+    "utilities": [
+      {
+        "source": "utilities",
+        "target": "npm:jsonc-eslint-parser",
+        "type": "dynamic"
+      },
+      {
+        "source": "utilities",
+        "target": "npm:@nx/rollup",
+        "type": "static"
       }
     ],
     "demo-web": [
@@ -16260,5 +16401,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1746190282880
+  "computedAt": 1747186067537
 }

@@ -413,6 +413,216 @@
       "nx/core/project-json"
     ]
   },
+  "libs/utilities": {
+    "root": [
+      "libs/utilities/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "libs/utilities/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "libs/utilities/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "libs/utilities/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "libs/utilities/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "libs/utilities/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "libs/utilities/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "libs/utilities/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "libs/utilities/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "libs/utilities/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "libs/utilities/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "libs/utilities/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "libs/utilities/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "libs/utilities/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "libs/utilities/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "libs/utilities/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "libs/utilities/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.build": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.cache": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.inputs": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.outputs": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.metadata": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.executor": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options.command": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.metadata.technologies": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.metadata.technologies.0": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.metadata.description": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.metadata.help": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.metadata.help.command": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.metadata.help.example": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build-deps": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.watch-deps": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "libs/utilities/rollup.config.cjs",
+      "@nx/rollup/plugin"
+    ],
+    "name": [
+      "libs/utilities/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/utilities/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "libs/utilities/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "libs/utilities/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "libs/utilities/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "libs/utilities/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "libs/utilities/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "libs/utilities/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "libs/utilities/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/utilities/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/utilities/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "libs/utilities/project.json",
+      "nx/core/project-json"
+    ]
+  },
   "components/game-amidakuji": {
     "root": [
       "components/game-amidakuji/project.json",

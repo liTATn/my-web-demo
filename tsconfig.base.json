@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "game-amidakuji": ["components/game-amidakuji/src/index.ts"]
+      "game-amidakuji": ["components/game-amidakuji/src/index.ts"],
+      "utilities": ["libs/utilities/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
